@@ -1,6 +1,6 @@
 <p align="center">
 	<a href="https://github.com/Linusar/CurrencyConverter"  target="_blank">
-	<img  align="center"  alt="watermelon"  src="https://github.com/Linusar/CurrencyConverter/icons/logo.png"  />
+	<img  align="center"  alt="logo"  src="https://github.com/Linusar/CurrencyConverter/blob/master/icons/logo.png"  />
 	</a>
 </p>
 
@@ -36,7 +36,7 @@ Clone the project on your computer and ready to edit :D.
 Open chrome and open `chrome://extensions/` , make sure `Developer mode` button is on, click `Load unpacked` , choose `project_dir/build` , now your will see a new extension been loaded.
 
 <h2>Icon made</h2>
-Icon made by [[Freepik](https://www.flaticon.com/authors/freepik)] from (www.flaticon.com)
+Icon made by (https://www.flaticon.com/authors/freepik) from (www.flaticon.com)
 
 <h2>Social</h2>
 <img  alt="Twitter URL"  src="https://img.shields.io/twitter/url/http/@Alejo40740246.svg?style=social">
