@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+  </head>
+  <body>
+    <style>
+      .container {
+        max-height: 200px;
+        min-height: 150px;
+        width: 300px;
+        background: #ffff;
+      }
+    </style>
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h5 class="center-align">Conversi&oacute;n de divisas</h5>
+        </div>
+      </div>
+      <!-- Próximamente actualización para todos los países -->
+      <div class="row">
+        <div class="col s12 m4 l8">
+          <select
+            id="currency_cuntry"
+            class="browser-default"
+            style="display: none"
+          >
+            <option value="" disabled selected>Seleccionar pa&iacute;s</option>
+            <option value="ARS">Peso argentino</option>
+            <option value="BOB">Boliviano</option>
+            <option value="BRL">Real</option>
+            <option value="CLF">Unidad de Fomento</option>
+            <option value="CLP">Peso Chileno</option>
+            <option value="COP">Peso colombiano</option>
+            <option value="CRC">Colones</option>
+            <option value="CUC">Peso Cubano Convertible</option>
+            <option value="CUP">Peso Cubano</option>
+            <option value="DOP">Peso Dominicano</option>
+            <option value="EUR">Euro</option>
+            <option value="GTQ">Quetzal Guatemalteco</option>
+            <option value="HNL">Lempira</option>
+            <option value="MXN">Peso Mexicano</option>
+            <option value="NIO">Córdoba</option>
+            <option value="PAB">Balboa</option>
+            <option value="PEN">Soles</option>
+            <option value="PYG">Guaraní</option>
+            <option value="UYU">Peso Uruguayo</option>
+            <option value="VEF">Bolivar fuerte</option>
+            <option value="VES">Bolivar Soberano</option>
+          </select>
+        </div>
+
+        <br />
+        <div class="col s12">
+          <h6 class="center-align" id="currency_price">
+            No se pudo cargar cotizaci&oacute;n
+          </h6>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s6 offset-s6">
+          <a class="waves-effect waves-light btn-small" id="changelinks"
+            >Convertir</a
+          >
+        </div>
+      </div>
+    </div>
+    <script src="/scripts/extension.js" type="text/javascript"></script>
+  </body>
+</html>
