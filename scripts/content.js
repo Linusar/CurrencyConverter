@@ -1,5 +1,3 @@
-const dolar = 58.5;
-const peso = (1 / dolar).toFixed(5);
 
 const parsePrice = price => {
   return price.split(".").join("");
